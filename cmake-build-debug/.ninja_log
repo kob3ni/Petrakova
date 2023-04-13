@@ -1,0 +1,9 @@
+# ninja log v5
+8	87	7030953861740828	CMakeFiles/untitled.dir/libs/data_structures/vector/vector.c.obj	c5aff639891c14e
+2	73	7030953861589393	CMakeFiles/untitled.dir/main.c.obj	b858bc611d98251b
+61	148	7030956210124799	untitled.exe	cca482cdd8b7a68b
+2	60	7030956209285593	CMakeFiles/untitled.dir/libs/data_structures/vector/main.c.obj	1581b8d4ed464042
+1	148	7030967998350986	build.ninja	26fc12eaac83b36f
+1	136	7030967998350986	build.ninja	26fc12eaac83b36f
+1	65	7030967999561333	CMakeFiles/untitled.dir/main.c.obj	b858bc611d98251b
+66	158	7030968000461601	untitled.exe	ed80fb31acf2cabf
