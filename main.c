@@ -58,7 +58,7 @@ void test_popBack_notEmptyVector() {
     deleteVector(&v);
 }
 
-void test_atVector_nonEmptyVector() {
+void test_atVector_notEmptyVector() {
     Vector v = createVector(0);
     pushBack(&v, 10);
     assert(v.size == 1);
