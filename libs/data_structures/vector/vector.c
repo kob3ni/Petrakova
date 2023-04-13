@@ -40,4 +40,3 @@ void deleteVector(Vector *v) {
     v->size = 0;
     v->capacity = 0;
 }
-
