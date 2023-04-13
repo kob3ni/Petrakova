@@ -58,7 +58,7 @@ void test_popBack_notEmptyVector() {
     deleteVector(&v);
 }
 
-void test_atVector_nonEmptyVector() {
+void test_atVector_notEmptyVector() {
     Vector v = createVector(0);
     pushBack(&v, 10);
     assert(v.size == 1);
@@ -140,7 +140,7 @@ void test() {
     test_pushBack_emptyVector();
     test_pushBack_fullVector();
     test_popBack_notEmptyVector();
-    test_atVector_nonEmptyVector();
+    test_atVector_notEmptyVector();
     test_atVector_requestToLastElement();
     test_back_oneElementInVector();
     test_front_oneElementInVector();
@@ -148,4 +148,6 @@ void test() {
 
 int main() {
     test();
+
+    return 0;
 }
